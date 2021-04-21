@@ -1,7 +1,7 @@
 module.exports = {
     base:'/zhb-docs/',
     title:'zhb-ui',
-    description:"12121212",
+    description:"一款轻量级、模块化的前端 UI 组件库",
     head: [
         ['link', { rel: 'icon', href:'logo.png'}],
 

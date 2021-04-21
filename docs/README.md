@@ -6,7 +6,7 @@ heroText: null
 tagline: 一款轻量级、模块化的前端 UI 组件库
 
 ---
-  <a target="_blank" href='https://blog.csdn.net/u012967771'><img src="/assets/img/logo2.png"  style="position: absolute;
+  <a target="_blank" href='https://blog.csdn.net/u012967771'><img src="assets/img/logo2.png"  style="position: absolute;
                                               width: 249px;
                                               top: -42px;
                                               left: 45px;"></a>
@@ -14,7 +14,7 @@ tagline: 一款轻量级、模块化的前端 UI 组件库
                                         width: 100%;
                                         bottom: 260px;">
        <div class="about">
-         <a href='/component/giud'>开始使用</a>
+         <a href='component/giud'>开始使用</a>
          <a target="_blank" class="btn-github" href="https://github.com/zhbnyx/zhb-ui">GitHub</a>
        </div>
  </div>
