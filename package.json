@@ -3,7 +3,7 @@
     "vuepress": "^1.8.2",
     "vuepress-plugin-auto-sidebar": "^2.2.2"
   },
-  "name": "zhb-ui-docs",
+  "name": "zhb-docs",
   "description": "zhb-ui文档&amp;个人博客",
   "version": "1.0.0",
   "main": "index.js",
