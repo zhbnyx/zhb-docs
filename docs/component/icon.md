@@ -6,7 +6,7 @@
 
 直接通过设置类名为 ```zhb-iconName``` 来使用即可。例如：
 
-><img src='../assets/img/icon.png' style="margin: 15px 0 ">
+><img :src="$withBase('/assets/img/icon.png')" style="margin: 15px 0 ">
 ---
 
 ::: demo
@@ -28,7 +28,7 @@
 ```
 ### 图标集合
 
-<iframe src='../fonts/demo_index.html' style="width: 100%;
+<iframe :src="$withBase('/fonts/demo_index.html')" style="width: 100%;
                                                 height: 1490px;
                                                 overflow: hidden;
                                                 border: none;"></iframe>
