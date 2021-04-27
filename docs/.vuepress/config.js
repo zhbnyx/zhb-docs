@@ -5,8 +5,11 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href:'logo.png'}],
 
+        // ['link', { rel: 'apple-touch-icon', href: '/photo.jpg' }]
         ['meta', { name: 'keywords', content:'jieshao'}]
     ],
+
+    serviceWorker: true ,// 是否开启 PWA
     themeConfig: {
 
         logo: '/assets/img/logo.png',
@@ -35,6 +38,14 @@ module.exports = {
                     children: [
                         {title: 'Icon 图标', path: '/component/icon'},
                         {title: 'Button 按钮', path: '/component/button'}
+                    ]
+                },
+                {
+                    title: '表单组件',
+                    collapsable: false,
+                    children: [
+                        {title: 'Input 输入框', path: '/component/input'},
+                        {title: 'Checkbox 多选框', path: '/component/checkbox'}
                     ]
                 }
             ],
