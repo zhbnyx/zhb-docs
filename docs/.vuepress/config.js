@@ -15,8 +15,8 @@ module.exports = {
         logo: '/assets/img/logo.png',
         nav: [
             { text: '组件', link: '/component/giud' },
+            { text:'博客',link:'/about'},
             { text: '前端案例', link: '/demo/'},
-            { text:'关于我',link:'/about'},
             { text:'CSDN',link:'https://blog.csdn.net/u012967771'},
             {text:'npm',link:"https://www.npmjs.com/package/zhb-ui"},
             { text:'GitHub', link:'https://github.com/zhbnyx/zhb-ui'},
@@ -37,7 +37,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         {title: 'Icon 图标', path: '/component/icon'},
-                        {title: 'Button 按钮', path: '/component/button'}
+                        {title: 'Button 按钮', path: '/component/button'},
+                        {title: 'Dialog 对话框', path: '/component/dialog'}
                     ]
                 },
                 {
@@ -45,7 +46,16 @@ module.exports = {
                     collapsable: false,
                     children: [
                         {title: 'Input 输入框', path: '/component/input'},
-                        {title: 'Checkbox 多选框', path: '/component/checkbox'}
+                        {title: 'Radio 单选框', path: '/component/radio'},
+                        {title: 'Checkbox 多选框', path: '/component/checkbox'},
+                        {title: 'Switch 开关', path: '/component/switch'}
+                    ]
+                },
+                {
+                    title: 'Echarts组件',
+                    collapsable: false,
+                    children: [
+
                     ]
                 }
             ],

@@ -1,4 +1,4 @@
-# Checkbox
+# Checkbox 复选框
 
 > 多选框，可配置禁用、选中状态，可自定义样式
 
@@ -82,4 +82,5 @@
 |-------------|------------|:--------:|:-----:|
 | label | 选项标签 | `String` | - |
 | value | 选项值 | `String` | - |
-| disabled | 是否禁止操作 | `Boolean` | - |
+| disabled | 是否禁止操作 | `Boolean` | false |
+| @change| 变化时回调函数 | `Function` | - |
