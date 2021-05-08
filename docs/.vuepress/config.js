@@ -55,7 +55,8 @@ module.exports = {
                     title: 'Echarts组件',
                     collapsable: false,
                     children: [
-                        {title: '柱状图', path: '/component/echarts/bar'}
+                        {title: '柱状图', path: '/component/echarts/bar'},
+                        {title: '圆柱状图', path: '/component/echarts/circleBar'}
                     ]
                 }
             ],
