@@ -17,11 +17,11 @@
     data() {
       return {
         data:[
-          {name:'前端案例',value:'234'},
-          {name:'VUE入门进阶',value:'157'},
-          {name:'Java从入门到放弃',value:'96'},
-          {name:'VUE3.0搭建',value:'58'},
-          {name:'Echarts数据可视化',value:'74'},
+           {name:"前端学习",data:[ {name:'前端案例',value:'234'},
+                              {name:'VUE入门进阶',value:'157'},
+                              {name:'前端从入门到放弃',value:'96'},
+                              {name:'VUE3.0搭建',value:'58'},
+                              {name:'Echarts数据可视化',value:'74'},]},
         ],
       };
     }
@@ -45,11 +45,11 @@
     data() {
       return {
         data:[
-          {name:'前端案例',value:'234'},
-          {name:'VUE入门进阶',value:'157'},
-          {name:'Java从入门到放弃',value:'96'},
-          {name:'VUE3.0搭建',value:'58'},
-          {name:'Echarts数据可视化',value:'74'},
+          {name:"前端学习",data:[ {name:'前端案例',value:'234'},
+                             {name:'VUE入门进阶',value:'157'},
+                             {name:'前端从入门到放弃',value:'96'},
+                             {name:'VUE3.0搭建',value:'58'},
+                             {name:'Echarts数据可视化',value:'74'},]},
         ],
       };
     }
@@ -72,11 +72,11 @@
     data() {
       return {
         data:[
-          {name:'前端案例',value:'234'},
-          {name:'VUE入门进阶',value:'157'},
-          {name:'Java从入门到放弃',value:'96'},
-          {name:'VUE3.0搭建',value:'58'},
-          {name:'Echarts数据可视化',value:'74'},
+         {name:"前端学习",data:[ {name:'前端案例',value:'234'},
+                            {name:'VUE入门进阶',value:'157'},
+                            {name:'前端从入门到放弃',value:'96'},
+                            {name:'VUE3.0搭建',value:'58'},
+                            {name:'Echarts数据可视化',value:'74'},]},
         ],
       };
     }
@@ -100,13 +100,13 @@
     data() {
       return {
         data:[
-          {name:'前端案例',value:'234'},
-          {name:'VUE入门进阶',value:'157',itemStyle: {
-                  color: '#a90000'
-          }},
-          {name:'Java从入门到放弃',value:'96'},
-          {name:'VUE3.0搭建',value:'58'},
-          {name:'Echarts数据可视化',value:'74'},
+          {name:"前端学习",data:[ {name:'前端案例',value:'234'},
+                             {name:'VUE入门进阶',value:'157',itemStyle: {
+                                     color: '#a90000'
+                                 }},
+                             {name:'前端从入门到放弃',value:'96'},
+                             {name:'VUE3.0搭建',value:'58'},
+                             {name:'Echarts数据可视化',value:'74'},]},
         ],
       };
     }
@@ -132,13 +132,13 @@
       return {
         color:['#FF7F39'],
         data:[
-          {name:'前端案例',value:'234'},
-          {name:'VUE入门进阶',value:'157',itemStyle: {
-                  color: '#a90000'
-          }},
-          {name:'Java从入门到放弃',value:'96'},
-          {name:'VUE3.0搭建',value:'58'},
-          {name:'Echarts数据可视化',value:'74'},
+          {name:"前端学习",data:[ {name:'前端案例',value:'234'},
+                             {name:'VUE入门进阶',value:'157',itemStyle: {
+                                     color: '#a90000'
+                                 }},
+                             {name:'前端从入门到放弃',value:'96'},
+                             {name:'VUE3.0搭建',value:'58'},
+                             {name:'Echarts数据可视化',value:'74'},]},
         ],
       };
     }
@@ -163,13 +163,13 @@
       return {
         color:['#FF7F39', '#FFC538', '#C0FF38', '#41FF38', '#38FF9F', '#39FFE3', '#39BBFF', '#3971FF', '#5A39FF', '#9F39FF'],
         data:[
-          {name:'前端案例',value:'234'},
-          {name:'VUE入门进阶',value:'157',itemStyle: {
-                  color: '#a90000'
-          }},
-          {name:'Java从入门到放弃',value:'96'},
-          {name:'VUE3.0搭建',value:'58'},
-          {name:'Echarts数据可视化',value:'74'},
+          {name:"前端学习",data:[ {name:'前端案例',value:'234'},
+                             {name:'VUE入门进阶',value:'157',itemStyle: {
+                                     color: '#a90000'
+                                 }},
+                             {name:'前端从入门到放弃',value:'96'},
+                             {name:'VUE3.0搭建',value:'58'},
+                             {name:'Echarts数据可视化',value:'74'},]},
         ],
       };
     }
@@ -203,11 +203,13 @@
       return {
         color:['#FF7F39'],
         data:[
-          {name:'前端案例',value:'234'},
-          {name:'VUE入门进阶',value:'157'},
-          {name:'Java从入门到放弃',value:'96'},
-          {name:'VUE3.0搭建',value:'58'},
-          {name:'Echarts数据可视化',value:'74'},
+         {name:"前端学习",data:[ {name:'前端案例',value:'234'},
+                            {name:'VUE入门进阶',value:'157',itemStyle: {
+                                    color: '#a90000'
+                                }},
+                            {name:'前端从入门到放弃',value:'96'},
+                            {name:'VUE3.0搭建',value:'58'},
+                            {name:'Echarts数据可视化',value:'74'},]},
         ],
       };
     }
@@ -227,4 +229,5 @@
 | color  | 柱状图柱子颜色 | Array   | — | #5470C6 |
 | showBackground  | 柱状图纵向背景色 | Boolean   | —   | fasle  |
 | showSplitArea  | 柱状图横向背景色 | Boolean   | —   | fasle  |
+| legendPosition  | 显示图例位置 | Boolean   | left—center-right   | right  |
 

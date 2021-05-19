@@ -56,7 +56,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         {title: '柱状图', path: '/component/echarts/bar'},
-                        {title: '圆柱状图', path: '/component/echarts/circleBar'}
+                        {title: '圆柱状图', path: '/component/echarts/circleBar'},
+                        {title: '多柱状图', path: '/component/echarts/moreBar'}
                     ]
                 }
             ],
