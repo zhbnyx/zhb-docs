@@ -218,6 +218,38 @@
 
 ```
 
+### 柱子过多 区域缩放
+><img :src="$withBase('/assets/img/zoom.png')" style="margin: 15px 0 ">
+---
+`isDataZoom 和 endValue 必须搭配使用！`
+
+```vue
+<template>
+   <div style="width: 800px;height: 400px">
+      <zhb-echarts-bar id="EchartsBar07"  isDataZoom="true" :endValue=2  :data="data"  barWidth="15" textColor="#f00" lineColor="#f00"></zhb-echarts-bar>
+   </div>
+</template>
+<script>
+  export default {
+    data() {
+      return {
+        color:['#FF7F39'],
+        data:[
+         {name:"前端学习",data:[ {name:'前端案例',value:'234'},
+                            {name:'VUE入门进阶',value:'157'},
+                            {name:'前端从入门到放弃',value:'96'},
+                            {name:'VUE3.0搭建',value:'58'},
+                            {name:'Echarts数据可视化',value:'74'},]},
+        ],
+      };
+    }
+  };
+</script>
+
+```
+
+
+
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
@@ -230,4 +262,6 @@
 | showBackground  | 柱状图纵向背景色 | Boolean   | —   | fasle  |
 | showSplitArea  | 柱状图横向背景色 | Boolean   | —   | fasle  |
 | legendPosition  | 显示图例位置 | Boolean   | left—center-right   | right  |
+| isDataZoom  | 区域缩放 | Boolean   | -   | false  |
+| endValue  | 区域缩放尾数值(必须与isDataZoom搭配使用) | Number   | -   | 5  |
 

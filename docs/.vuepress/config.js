@@ -16,7 +16,7 @@ module.exports = {
         nav: [
             { text: '组件', link: '/component/giud' },
             { text:'博客',link:'/about'},
-            { text: '前端案例', link: '/demo/'},
+            { text: '前端工具', link: '/demo/'},
             { text:'CSDN',link:'https://blog.csdn.net/u012967771'},
             {text:'npm',link:"https://www.npmjs.com/package/zhb-ui"},
             { text:'GitHub', link:'https://github.com/zhbnyx/zhb-ui'},
@@ -38,7 +38,8 @@ module.exports = {
                     children: [
                         {title: 'Icon 图标', path: '/component/icon'},
                         {title: 'Button 按钮', path: '/component/button'},
-                        {title: 'Dialog 对话框', path: '/component/dialog'}
+                        {title: 'Dialog 对话框', path: '/component/dialog'},
+                        {title: 'Switch 开关', path: '/component/switch'}
                     ]
                 },
                 {
@@ -48,7 +49,7 @@ module.exports = {
                         {title: 'Input 输入框', path: '/component/input'},
                         {title: 'Radio 单选框', path: '/component/radio'},
                         {title: 'Checkbox 多选框', path: '/component/checkbox'},
-                        {title: 'Switch 开关', path: '/component/switch'}
+                        {title: '树形Select选择器', path: '/component/treeSelect'}
                     ]
                 },
                 {
@@ -56,17 +57,14 @@ module.exports = {
                     collapsable: false,
                     children: [
                         {title: '柱状图', path: '/component/echarts/bar'},
-                        {title: '圆柱状图', path: '/component/echarts/circleBar'},
-                        {title: '多柱状图', path: '/component/echarts/moreBar'}
+                        {title: '多柱状图', path: '/component/echarts/moreBar'},
+                        {title: '自定义柱状图', path: '/component/echarts/definedBar'}
                     ]
                 }
             ],
             '/demo/': [{
-                title: '前端案例',
-                collapsable: false,
-                children: [
-                    {title: '案例', path: '/demo/demo'},
-                ]
+                // title: '前端案例',
+                collapsable: true,
             }]
         },
 

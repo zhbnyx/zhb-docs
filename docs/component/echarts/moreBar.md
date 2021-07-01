@@ -99,5 +99,6 @@
 | showBackground  | 柱状图纵向背景色 | Boolean   | —   | fasle  |
 | showSplitArea  | 柱状图横向背景色 | Boolean   | —   | fasle  |
 | isLegend  | 是否显示图例 | Boolean   | —   | fasle  |
-| isLegend  | 是否显示图例 | Boolean   | —   | fasle  |
 | legendPosition  | 显示图例位置 | Boolean   | left—center-right   | right  |
+| isDataZoom  | 区域缩放 | Boolean   | -   | false  |
+| endValue  | 区域缩放尾数值(必须与isDataZoom搭配使用) | Number   | -   | 5  |

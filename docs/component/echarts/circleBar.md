@@ -68,3 +68,5 @@
 | color  | 柱状图柱子颜色 | Array   | — | #5470C6 |
 | showBackground  | 柱状图纵向背景色 | Boolean   | —   | fasle  |
 | showSplitArea  | 柱状图横向背景色 | Boolean   | —   | fasle  |
+| isDataZoom  | 区域缩放 | Boolean   | -   | false  |
+| endValue  | 区域缩放尾数值(必须与isDataZoom搭配使用) | Number   | -   | 5  |
