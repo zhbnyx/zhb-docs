@@ -15,7 +15,6 @@ module.exports = {
         logo: '/assets/img/logo.png',
         nav: [
             { text: '组件', link: '/component/giud' },
-            { text:'博客',link:'/about'},
             { text: '前端工具', link: '/demo/'},
             { text:'CSDN',link:'https://blog.csdn.net/u012967771'},
             {text:'npm',link:"https://www.npmjs.com/package/zhb-ui"},
@@ -49,7 +48,8 @@ module.exports = {
                         {title: 'Input 输入框', path: '/component/input'},
                         {title: 'Radio 单选框', path: '/component/radio'},
                         {title: 'Checkbox 多选框', path: '/component/checkbox'},
-                        {title: '树形Select选择器', path: '/component/treeSelect'}
+                        {title: '树形Select选择器', path: '/component/treeSelect'},
+                        {title: '图片上传', path: '/component/imgFile'}
                     ]
                 },
                 {
