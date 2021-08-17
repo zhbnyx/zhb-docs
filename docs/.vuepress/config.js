@@ -49,7 +49,8 @@ module.exports = {
                         {title: 'Radio 单选框', path: '/component/radio'},
                         {title: 'Checkbox 多选框', path: '/component/checkbox'},
                         {title: '树形Select选择器', path: '/component/treeSelect'},
-                        {title: '图片上传', path: '/component/imgFile'}
+                        {title: '图片上传', path: '/component/imgFile'},
+                        {title: '文件上传', path: '/component/file'}
                     ]
                 },
                 {
