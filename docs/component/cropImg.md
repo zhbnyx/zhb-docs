@@ -17,6 +17,17 @@
 
 ><img :src="$withBase('/assets/img/cropImg2.png')" style="margin: 15px 0 ">
 
+### 步骤
+> 第一步：
+> npm install vue-cropper --save 或者 npm install vue-cropper -S
+
+>第二步：引入依赖
+>在main.js中引入
+>import VueCropper from 'vue-cropper'
+  
+>Vue.use(VueCropper)
+>按需引入
+>import VueCropper from 'vue-cropper'
 
 ---
 
