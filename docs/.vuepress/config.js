@@ -38,7 +38,10 @@ module.exports = {
                         {title: 'Icon 图标', path: '/component/icon'},
                         {title: 'Button 按钮', path: '/component/button'},
                         {title: 'Dialog 对话框', path: '/component/dialog'},
-                        {title: 'Switch 开关', path: '/component/switch'}
+                        {title: 'Switch 开关', path: '/component/switch'},
+                        {title: '图片上传', path: '/component/imgFile'},
+                        {title: '文件上传', path: '/component/file'},
+                        {title: '图片裁剪', path: '/component/cropImg'}
                     ]
                 },
                 {
@@ -49,9 +52,7 @@ module.exports = {
                         {title: 'Radio 单选框', path: '/component/radio'},
                         {title: 'Checkbox 多选框', path: '/component/checkbox'},
                         {title: '树形Select选择器', path: '/component/treeSelect'},
-                        {title: '图片上传', path: '/component/imgFile'},
-                        {title: '文件上传', path: '/component/file'},
-                        {title: '图片裁剪', path: '/component/cropImg'}
+                        {title: '搜索条件', path: '/component/searchConfig'}
                     ]
                 },
                 {
