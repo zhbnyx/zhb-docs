@@ -41,7 +41,8 @@ module.exports = {
                         {title: 'Switch 开关', path: '/component/switch'},
                         {title: '图片上传', path: '/component/imgFile'},
                         {title: '文件上传', path: '/component/file'},
-                        {title: '图片裁剪', path: '/component/cropImg'}
+                        {title: '图片裁剪', path: '/component/cropImg'},
+                        {title: 'Button 按钮配置', path: '/component/buttonConfig'}
                     ]
                 },
                 {
